@@ -52,7 +52,7 @@ button:
 
 switch:
   - platform: gpio
-    name: "${device_id} r1"
+    name: "r1"
     pin: GPIO16
     id: relay1
     restore_mode: ${relay1_restore_mode}
