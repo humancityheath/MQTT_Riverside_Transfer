@@ -37,6 +37,9 @@ wifi:
 
 captive_portal:
 
+dashboard_import:
+  package_import_url: github://athom-tech/athom-configs/athom-relay-board-x8.yaml
+
 binary_sensor:
   - platform: status
     name: "${friendly_name} Status"
