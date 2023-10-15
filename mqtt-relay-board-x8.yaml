@@ -38,7 +38,7 @@ wifi:
 captive_portal:
 
 dashboard_import:
-  package_import_url: github://humancityheath/mqtt_riverside_transfer/athom-relay-board-x8.yaml
+  package_import_url: github://humancityheath/mqtt_riverside_transfer/mqtt-relay-board-x8.yaml
 
 sensor:
   - platform: uptime
