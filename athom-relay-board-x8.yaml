@@ -40,26 +40,10 @@ captive_portal:
 dashboard_import:
   package_import_url: github://humancityheath/mqtt_riverside_transfer/athom-relay-board-x8.yaml
 
-binary_sensor:
-  - platform: status
-    name: "${friendly_name} Status"
-
-  - platform: gpio
-    name: "${friendly_name} IO2"
-    disabled_by_default: true
-    pin:
-      number: GPIO2
-      mode: INPUT_PULLUP
-      inverted: true
-
 sensor:
   - platform: uptime
     name: "${friendly_name} Uptime"
     disabled_by_default: true
-
-  - platform: wifi_signal
-    name: "${friendly_name} WiFi Signal"
-    update_interval: 60s
 
 button:
   - platform: restart
